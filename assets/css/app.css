@@ -1,0 +1,45 @@
+.nuxt-link-active{
+  background: #35b361;
+  color: white !important;    
+}
+.top_header{
+   padding: 10px 0px;
+}
+.primary__bg{
+    background: #49DC82;
+    /* background: linear-gradient(to right, #ee3dd0 0%, #57d5da 100%); */
+
+}
+
+.gradient__bg{
+    background: linear-gradient(to right, #44d47b 0%, #38c26d 100%);
+    /* background: linear-gradient(to right, #E100FF 0%, #7F00FF 100%); */
+    /* color: white !important; */
+}
+
+.main__container{
+    padding: 0px 200px;
+}
+
+.header_middle{
+    border: solid 2px #eaeaea;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 768px) {
+	.main__container{
+        padding: 0px 30px;
+    }
+}
+
+.gray_font{
+    color: #1b1b28;
+}
+
+.box__shawow{
+      box-shadow: 0px 0px 22px -9px #22D859;
+  }
+
+  .div__border{
+    border: 2px solid #e4e4e4 !important;
+  }
